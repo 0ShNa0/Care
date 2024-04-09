@@ -6,5 +6,10 @@
 
 ### What is Caregiver?
 #### Our web based application aims to provide an online safe-space for caregivers to seek resources,find a sense of community and belonging and ease their burden.
-#### We recognise that the unqiue responsibility of caregivers who often devote their energy full time often recieves no support.
+#### We recognise that the unqiue responsibility of caregivers who often devote their energy full time often recieve no support.
 
+## Walk Through the caregiver lane with us!
+
+<img width="1437" alt="Screenshot 2024-04-10 at 2 11 27 AM" src="https://github.com/0ShNa0/CareGiver/assets/72717361/bb8012d3-3f71-4494-8754-44d92dbadfaa">
+
+#### Home Page
