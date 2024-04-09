@@ -28,5 +28,12 @@
 #### Attendants-Only the best companies to help you get the professional caretaking support
 
 
+<img width="1440" alt="Screenshot 2024-04-10 at 2 23 42 AM" src="https://github.com/0ShNa0/CareGiver/assets/72717361/066bf20b-2e15-4ebb-a9d6-3bdc839bb065">
 
+#### Emergency&FirstAid-Always prepared to aid you in worst case circumstances
+<img width="1433" alt="Screenshot 2024-04-10 at 2 24 04 AM" src="https://github.com/0ShNa0/CareGiver/assets/72717361/2f9a7537-8522-4891-920c-a4b6731e64cb">
 
+#### Blogs-Sift through these profound blogs written by caregivers
+<img width="1427" alt="Screenshot 2024-04-10 at 2 24 18 AM" src="https://github.com/0ShNa0/CareGiver/assets/72717361/e31cf4c6-bfdb-4af3-acc9-e5c165015341">
+
+### Read-a-Blog hours
