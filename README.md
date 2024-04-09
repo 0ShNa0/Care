@@ -22,7 +22,8 @@
 <img width="1440" alt="Screenshot 2024-04-10 at 2 14 14 AM" src="https://github.com/0ShNa0/CareGiver/assets/72717361/493ce121-4fab-4a43-92ce-73166f906400">
 
 #### Mental Health Specialists-Find experts comfortably for you and those who you care for
-<img width="1440" alt="Screenshot 2024-04-10 at 2 14 14 AM" src="https://github.com/0ShNa0/CareGiver/assets/72717361/fc7ca5af-2ff9-46a3-9e98-042b98172fc0">
+<img width="1428" alt="Screenshot 2024-04-10 at 2 15 38 AM" src="https://github.com/0ShNa0/CareGiver/assets/72717361/180c3c54-bfd5-49aa-9186-c844ff7f56b5">
+
 
 #### Attendants-Only the best companies to help you get the professional caretaking support
 
