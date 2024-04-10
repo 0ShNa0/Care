@@ -67,7 +67,7 @@
 
 [caregiverdemo.webm](https://github.com/0ShNa0/CareGiver/assets/72717361/16dcb7c7-ce5d-4971-9fce-4c4e2ee02cc1)
 
-("https://player.vimeo.com/video/932667019?h=f54bf60711")
+(https://player.vimeo.com/video/932667019?h=f54bf60711)
 
 ### Passionate,Curious or Interested ?Here's the hosted website
 https://care-giver-iota.vercel.app/
