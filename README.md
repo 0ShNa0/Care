@@ -16,7 +16,7 @@
 ```
 #### Navigate to the project folder
 ```zsh
-    cd caregiver
+    cd CareGiver
 ```
 #### Navigate to the frontend
 ```zsh
