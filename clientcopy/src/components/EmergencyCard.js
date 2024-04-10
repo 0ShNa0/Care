@@ -47,7 +47,7 @@ const EmergencyCard = ({emergency,steps}) => {
      fontFamily='Playfair Display' float="right" position="relative" marginLeft="15px" >
     
  <div>
-   <Typography component="span" fontSize="21px" color="primary" fontFamily='Playfair Display' alignContent={'center'} display='flex'>Steps to be taken</Typography>
+   <Typography component="span" fontSize="21px" color="red" fontFamily='Playfair Display' alignContent={'center'} display='flex'>Steps to be taken</Typography>
   
    { steps.map((step)=>(
    <React.Fragment>
