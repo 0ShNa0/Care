@@ -10,19 +10,19 @@
 
 ### Run this project on local with these few steps
  #### Copy the repository link
- #### clone it on your local
+ #### Clone it on your local
  ```zsh
     git clone "<project_name>".git
 ```
-### Navigate to the project folder
+#### Navigate to the project folder
 ```zsh
     cd caregiver
 ```
-### Navigate to the frontend
+#### Navigate to the frontend
 ```zsh
    cd clientcopy
 ```
-### Time to run
+#### Time to run
 ```zsh
    npm run start
 ```
