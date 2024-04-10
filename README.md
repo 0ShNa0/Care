@@ -12,7 +12,7 @@
  #### Copy the repository link
  #### clone it on your local
  ```zsh
-    git clone <project_name>.git
+    git clone "<project_name>".git
 ```
 ### Navigate to the project folder
 ```zsh
