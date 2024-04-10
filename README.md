@@ -31,7 +31,7 @@
 
 #### Time to run
 ```zsh
-   npm run start
+   npm start
 ```
 ## Walk Through the caregiver lane with us!
 
