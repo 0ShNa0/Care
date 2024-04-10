@@ -10,6 +10,8 @@
 
 ### Run this project on local with these few steps
  #### Copy the repository link
+ <img width="403" alt="Screenshot 2024-04-10 at 10 31 15 AM" src="https://github.com/0ShNa0/CareGiver/assets/72717361/98395d3c-947b-4a79-a69f-e1a25d5b5ec0">
+
  #### Clone it on your local
  ```zsh
     git clone "<project_name>".git
