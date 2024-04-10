@@ -14,7 +14,7 @@
 
  #### Clone it on your local
  ```zsh
-    git clone "<project_name>".git
+    git clone "<project_path>".git
 ```
 #### Navigate to the project folder
 ```zsh
@@ -24,6 +24,11 @@
 ```zsh
    cd clientcopy
 ```
+#### Install dependencies
+```zsh
+    npm install
+```
+
 #### Time to run
 ```zsh
    npm run start
