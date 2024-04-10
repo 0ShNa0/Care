@@ -18,7 +18,7 @@ const Home = () => {
    
     }}>
        
-      <Typography fontSize="132px" color="#2196f3" fontFamily='Rubik Doodle Shadow' marginRight='70px' sx={{textAlign:"right"}}>
+      <Typography fontSize="8rem" color="#2196f3" fontFamily='Rubik Doodle Shadow' marginRight='70px' sx={{textAlign:"right"}}>
         Caregiver
       </Typography>
  
