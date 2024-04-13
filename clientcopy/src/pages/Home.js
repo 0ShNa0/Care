@@ -18,7 +18,11 @@ const Home = () => {
    
     }}>
        
+<<<<<<< HEAD
       <Typography fontSize="8rem" color="#2196f3" fontFamily='Rubik Doodle Shadow' marginRight='70px' sx={{textAlign:"right"}}>
+=======
+      <Typography fontSize={{lg:'132px',sm:'40px',xs:'12px'}} color="#2196f3" fontFamily='Rubik Doodle Shadow' marginRight='70px' sx={{textAlign:"right"}}>
+>>>>>>> 391c788 (font testing)
         Caregiver
       </Typography>
  

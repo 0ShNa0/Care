@@ -18,27 +18,28 @@ const Header = () => {
           sx={{ width: '100%', px: '20px' ,mb:"20px",mt:"20px"}}
         >
           <Typography component="div">
-            <Link to="/" style={{ textDecoration: 'none', color: '#2196f3', fontFamily:"Playfair Display",fontSize:"29px" }}>
+            <Link to="/" style={{ textDecoration: 'none', color: '#2196f3', fontFamily:"Playfair Display",fontSize:{lg:"29px",sm:"12px",xs:"8px" }
+            }}>
             Caregiver
             </Link>
           </Typography>
           <Stack direction="row" spacing={2}>
-            <Link to="/" style={{ textDecoration: 'none', color: '#212121', fontFamily:"Playfair Display" ,fontSize:"25px"}}>
+            <Link to="/" style={{ textDecoration: 'none', color: '#212121', fontFamily:"Playfair Display" ,fontSize:{lg:"25px",sm:"10px",xs:"6px" }}}>
               Home
             </Link>
-            <Link to="/about" style={{ textDecoration: 'none', color: '#212121' , fontFamily:"Playfair Display",fontSize:"25px"}}>
+            <Link to="/about" style={{ textDecoration: 'none', color: '#212121' , fontFamily:"Playfair Display",fontSize:{lg:"25px",sm:"10px",xs:"6px" }}}>
               About
             </Link>
-            <Link to="/counselors" style={{ textDecoration: 'none', color: '#212121', fontFamily:"Playfair Display" ,fontSize:"25px"}}>
+            <Link to="/counselors" style={{ textDecoration: 'none', color: '#212121', fontFamily:"Playfair Display" ,fontSize:{lg:"25px",sm:"10px",xs:"6px" }}}>
               Mental Health Specialists
             </Link>
-            <Link to="/attendants" style={{ textDecoration: 'none', color: '#212121', fontFamily:"Playfair Display",fontSize:"25px" }}>
+            <Link to="/attendants" style={{ textDecoration: 'none', color: '#212121', fontFamily:"Playfair Display",fontSize:{lg:"25px",sm:"10px",xs:"6px" } }}>
               Attendants
             </Link>
-            <Link to="/emergency" style={{ textDecoration: 'none', color: '#212121', fontFamily:"Playfair Display",fontSize:"25px" }}>
+            <Link to="/emergency" style={{ textDecoration: 'none', color: '#212121', fontFamily:"Playfair Display",fontSize:{lg:"25px",sm:"10px",xs:"6px" }}}>
              Emergency&FirstAid
             </Link>
-            <Link to="/blogs" style={{ textDecoration: 'none', color: '#212121' , fontFamily:"Playfair Display",fontSize:"25px"}}>
+            <Link to="/blogs" style={{ textDecoration: 'none', color: '#212121' , fontFamily:"Playfair Display",fontSize:{lg:"25px",sm:"10px",xs:"6px" }}}>
               Blogs
             </Link>
           </Stack>
