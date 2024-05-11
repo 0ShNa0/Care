@@ -34,7 +34,7 @@ const Header = () => {
             </Typography>
             {isMobile ? (
               <IconButton color="inherit" aria-label="menu" onClick={handleDrawerOpen}>
-                <MenuIcon sx={{ color: black }} />
+                <MenuIcon sx={{ color:'black' }} />
               </IconButton>
             ) : (
               <Stack direction="row" spacing={2}>
