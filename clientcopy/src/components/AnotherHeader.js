@@ -1,17 +1,28 @@
-import React from 'react';
-import { Paper, AppBar, Toolbar, Typography, Stack, useMediaQuery, useTheme, Hidden } from '@mui/material'; // Assuming you are using Material-UI
+
+import React, { useState } from 'react';
+import { Paper, AppBar, Toolbar, Typography, Stack, IconButton, Drawer, List, ListItem, ListItemText, Divider, useMediaQuery, useTheme } from '@mui/material'; // Assuming you are using Material-UI
 import { Link } from 'react-router-dom'; // Assuming you are using React Router
+import MenuIcon from '@mui/icons-material/Menu';
 
 const Header = () => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down('sm')); // Detect if the screen is mobile-sized
+  const [drawerOpen, setDrawerOpen] = useState(false);
+
+  const handleDrawerOpen = () => {
+    setDrawerOpen(true);
+  };
+
+  const handleDrawerClose = () => {
+    setDrawerOpen(false);
+  };
 
   return (
     <Paper elevation={3} style={{ position: 'sticky', top: 0, zIndex: 999 }}>
       <AppBar position="static" elevation={8} sx={{ width: '100%', bgcolor: '#e1f5fe', boxShadow: 'initial' }}>
         <Toolbar>
           <Stack
-            direction={isMobile ? 'column' : 'row'} // Display as column on mobile, row on larger screens
+            direction="row"
             alignItems="center"
             justifyContent="space-between"
             sx={{ width: '100%', px: '20px', mb: '20px', mt: '20px' }}
@@ -21,7 +32,11 @@ const Header = () => {
                 Caregiver
               </Link>
             </Typography>
-            <Hidden smDown> {/* Hide on mobile screens */}
+            {isMobile ? (
+              <IconButton color="inherit" aria-label="menu" onClick={handleDrawerOpen}>
+                <MenuIcon />
+              </IconButton>
+            ) : (
               <Stack direction="row" spacing={2}>
                 <Link to="/" style={{ textDecoration: 'none', color: '#212121', fontFamily: 'Playfair Display' }}>
                   Home
@@ -57,10 +72,35 @@ const Header = () => {
                   Blogs
                 </Link>
               </Stack>
-            </Hidden>
+            )}
           </Stack>
         </Toolbar>
       </AppBar>
+      <Drawer anchor="right" open={drawerOpen} onClose={handleDrawerClose}>
+        <div style={{ width: '250px' }}>
+          <List>
+            <ListItem button component={Link} to="/" onClick={handleDrawerClose}>
+              <ListItemText primary="Home" />
+            </ListItem>
+            <ListItem button component={Link} to="/about" onClick={handleDrawerClose}>
+              <ListItemText primary="About" />
+            </ListItem>
+            <ListItem button component={Link} to="/counselors" onClick={handleDrawerClose}>
+              <ListItemText primary="Mental Health Specialists" />
+            </ListItem>
+            <ListItem button component={Link} to="/attendants" onClick={handleDrawerClose}>
+              <ListItemText primary="Attendants" />
+            </ListItem>
+            <ListItem button component={Link} to="/emergency" onClick={handleDrawerClose}>
+              <ListItemText primary="Emergency&FirstAid" />
+            </ListItem>
+            <ListItem button component={Link} to="/blogs" onClick={handleDrawerClose}>
+              <ListItemText primary="Blogs" />
+            </ListItem>
+          </List>
+          <Divider />
+        </div>
+      </Drawer>
     </Paper>
   );
 };
