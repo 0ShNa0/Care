@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import { BrowserRouter, Route,Routes } from 'react-router-dom';
-import Header from './components/Header';
+import Header from './components/AnotherHeader';
 import About from './pages/About';
 import {Box} from '@mui/material';
 import Home from './pages/Home';
