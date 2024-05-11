@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Paper, AppBar, Toolbar, Typography, Stack, IconButton, Drawer, List, ListItem, ListItemText, Divider, useMediaQuery, useTheme } from '@mui/material'; // Assuming you are using Material-UI
 import { Link } from 'react-router-dom'; // Assuming you are using React Router
 import MenuIcon from '@mui/icons-material/Menu';
-import { black } from '@mui/material/colors';
+
 const Header = () => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down('sm')); // Detect if the screen is mobile-sized
