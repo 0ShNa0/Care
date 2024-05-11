@@ -24,13 +24,14 @@ const EmergencyCard = ({emergency,steps}) => {
      <Card raised={true}  
      sx={{
          
-         width :{sx:'80vw',md:'83vw',lg:'69vw'},
+         width :{sx:'72vw',md:'83vw',lg:'81vw'},
          bgcolor:'#fff',
          maxHeight:{sx:'110px',md:'180px',lg:'440px'},
          overflow: 'auto',
         borderRadius:1,
          mt:{sx:'20px',md:'40px',lg:'80px'},
-         
+         marginLeft:'auto',
+         marginRight:'auto'
         
     
      }}>
@@ -47,11 +48,11 @@ const EmergencyCard = ({emergency,steps}) => {
      fontFamily='Playfair Display' float="right" position="relative" marginLeft="15px" >
     
  <div>
-   <Typography component="span" fontSize="21px" color="red" fontFamily='Playfair Display' alignContent={'center'} display='flex'>Steps to be taken</Typography>
+   <Typography component="span" fontSize={{sx:'15px',md:'20px',lg:'28px'}} color="red" fontFamily='Playfair Display' alignContent={'center'} display='flex'>Steps to be taken</Typography>
   
    { steps.map((step)=>(
    <React.Fragment>
-   <Typography component="span" fontSize="20px" color="black" fontFamily='Playfair Display'> * {step}</Typography>
+   <Typography component="span" fontSize={{sx:'15px',md:'20px',lg:'28px'}} color="black" fontFamily='Playfair Display'> * {step}</Typography>
    <br/>
    </React.Fragment>
 )
