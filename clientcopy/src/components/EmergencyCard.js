@@ -31,8 +31,8 @@ const EmergencyCard = ({emergency,steps}) => {
         borderRadius:1,
          mt:{sx:'20px',md:'40px',lg:'80px'},
          marginLeft:'auto',
-         marginRight:'auto'
-        
+         marginRight:'auto',
+         mb:{sx:'20px',md:'40px',lg:'80px'}
     
      }}>
        
