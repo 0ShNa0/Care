@@ -24,7 +24,7 @@ const EmergencyCard = ({emergency,steps}) => {
      <Card raised={true}  
      sx={{
          
-         width :{sx:'72vw',md:'83vw',lg:'81vw'},
+         maxWidth :{sx:'72vw',md:'83vw',lg:'81vw'},
          bgcolor:'#fff',
          maxHeight:{sx:'110px',md:'180px',lg:'440px'},
          overflow: 'auto',
